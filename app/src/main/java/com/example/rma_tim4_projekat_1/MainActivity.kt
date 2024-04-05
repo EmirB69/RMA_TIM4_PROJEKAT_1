@@ -11,6 +11,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.rma_tim4_projekat_1.ekrani.HomeEkran
+import com.example.rma_tim4_projekat_1.ekrani.Login
+import com.example.rma_tim4_projekat_1.ekrani.LoginEkran
 import com.example.rma_tim4_projekat_1.ui.theme.RMA_TIM4_PROJEKAT_1Theme
 
 class MainActivity : ComponentActivity() {
@@ -23,7 +25,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    HomeEkran()
+                    LoginEkran()
                 }
             }
         }
