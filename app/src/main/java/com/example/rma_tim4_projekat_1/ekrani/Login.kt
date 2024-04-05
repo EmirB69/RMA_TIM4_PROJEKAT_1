@@ -20,7 +20,7 @@ fun Login()
     {
         Image(
             painter = painterResource(id = R.drawable.logo),
-            contentDescription = null
+            contentDescription = null,
         )
     }
 }
